@@ -5,10 +5,6 @@
 </template>
 
 <script setup>
-definePageMeta({
-  middleware: ["auth"],
-});
-
 const firebaseUser = useFirebaseUser();
 </script>
 
